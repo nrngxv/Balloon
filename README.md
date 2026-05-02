@@ -79,7 +79,7 @@ task run
 The API will be available at `http://localhost:8080`
 
 # Development
----
+
 ## Available commands
 ```
 # Backend commands (from backend/ directory)
@@ -109,7 +109,6 @@ The backend uses environment variables prefixed with `BALLOON_`. Key variables i
 See `apps/backend/.env.example` for a complete list.
 
 # Architecture
----
 This boilerplate/template follows clean architecture principles:
 
 - **Handlers**: HTTP request/response handling
@@ -119,7 +118,7 @@ This boilerplate/template follows clean architecture principles:
 - **Infrastructure**: External services (Database, cache, email)
 
 # Testing
----
+
 ```
 # Run backend tests
 cd apps/backend
